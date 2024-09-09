@@ -12,8 +12,8 @@ importers:
         specifier: ^14.0.2
         version: 14.0.2
       '@legendapp/state':
-        specifier: 3.0.0-alpha.37
-        version: 3.0.0-alpha.37(react@18.3.1)
+        specifier: 3.0.0-alpha.38
+        version: 3.0.0-alpha.38(react@18.3.1)
       '@react-navigation/native':
         specifier: ^6.0.2
         version: 6.1.18(react-native@0.75.2(@babel/core@7.25.2)(@babel/preset-env@7.25.4(@babel/core@7.25.2))(@types/react@18.3.5)(react@18.3.1)(typescript@5.5.4))(react@18.3.1)
@@ -1128,8 +1128,8 @@ packages:
   '@jridgewell/trace-mapping@0.3.25':
     resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
 
-  '@legendapp/state@3.0.0-alpha.37':
-    resolution: {integrity: sha512-ai73izXWxfwewhQjAUKlmMaHyu5/0y6AEgidGc/b4ewgpIiqrTjhirM2rWwSoY8z6N03H8cNKquDqk6LmtxLDQ==}
+  '@legendapp/state@3.0.0-alpha.38':
+    resolution: {integrity: sha512-qpJZZHic0Lwxgz7uOMEv7uJS2kBnK5NeiZQ8q5aGjuR9FjeuJT5ycctIKA1U1TF6MuqQ9c5/usp/ROSKtFW2BQ==}
 
   '@nodelib/fs.scandir@2.1.5':
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
@@ -6776,7 +6776,7 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
 
-  '@legendapp/state@3.0.0-alpha.37(react@18.3.1)':
+  '@legendapp/state@3.0.0-alpha.38(react@18.3.1)':
     dependencies:
       use-sync-external-store: 1.2.2(react@18.3.1)
     transitivePeerDependencies:
