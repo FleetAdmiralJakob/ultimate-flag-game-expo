@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "@expo/vector-icons": "^14.0.2",
-    "@legendapp/state": "3.0.0-beta.3",
+    "@legendapp/state": "3.0.0-beta.4",
     "@react-navigation/native": "^6.0.2",
     "clsx": "^2.1.1",
     "expo": "~51.0.28",
