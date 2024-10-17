@@ -85,7 +85,7 @@ importers:
         version: 3.34.0(react-native@0.75.4(@babel/core@7.25.8)(@babel/preset-env@7.25.4(@babel/core@7.25.8))(@types/react@18.3.11)(react@18.3.1)(typescript@5.6.3))(react@18.3.1)
       react-native-web:
         specifier: ~0.19.10
-        version: 0.19.12(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        version: 0.19.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       tailwindcss:
         specifier: ^3.4.10
         version: 3.4.14
@@ -929,10 +929,6 @@ packages:
     peerDependencies:
       '@babel/core': ^7.0.0-0
 
-  '@babel/runtime@7.25.4':
-    resolution: {integrity: sha512-DSgLeL/FNcpXuzav5wfYvHCGvynXkJbn3Zvc3823AEe9nPwW9IK4UoCSS5yGymmQzN0pCPvivtgS6/8U2kkm1w==}
-    engines: {node: '>=6.9.0'}
-
   '@babel/runtime@7.25.7':
     resolution: {integrity: sha512-FjoyLe754PMiYsFaN5C94ttGiOmBNYTf6pLr4xXHAT5uctHb092PBszndLDR5XA/jghQvn4n7JMHl7dmTgbm9w==}
     engines: {node: '>=6.9.0'}
@@ -1315,8 +1311,8 @@ packages:
   '@react-native/normalize-colors@0.74.85':
     resolution: {integrity: sha512-pcE4i0X7y3hsAE0SpIl7t6dUc0B0NZLd1yv7ssm4FrLhWG+CGyIq4eFDXpmPU1XHmL5PPySxTAjEMiwv6tAmOw==}
 
-  '@react-native/normalize-colors@0.74.87':
-    resolution: {integrity: sha512-Xh7Nyk/MPefkb0Itl5Z+3oOobeG9lfLb7ZOY2DKpFnoCE1TzBmib9vMNdFaLdSxLIP+Ec6icgKtdzYg8QUPYzA==}
+  '@react-native/normalize-colors@0.74.88':
+    resolution: {integrity: sha512-He5oTwPBxvXrxJ91dZzpxR7P+VYmc9IkJfhuH8zUiU50ckrt+xWNjtVugPdUv4LuVjmZ36Vk2EX8bl1gVn2dVA==}
 
   '@react-native/normalize-colors@0.75.4':
     resolution: {integrity: sha512-90QrQDLg0/k9xqYesaKuIkayOSjD+FKa0hsHollbwT5h3kuGMY+lU7UZxnb8tU55Y1PKdvjYxqQsYWI/ql79zA==}
@@ -4312,8 +4308,8 @@ packages:
       react: '*'
       react-native: '*'
 
-  react-native-web@0.19.12:
-    resolution: {integrity: sha512-o2T0oztoVDQjztt4YksO9S1XRjoH/AqcSvifgWLrPJgGVbMWsfhILgl6lfUdEamVZzZSVV/2gqDVMAk/qq7mZw==}
+  react-native-web@0.19.13:
+    resolution: {integrity: sha512-etv3bN8rJglrRCp/uL4p7l8QvUNUC++QwDbdZ8CB7BvZiMvsxfFIRM1j04vxNldG3uo2puRd6OSWR3ibtmc29A==}
     peerDependencies:
       react: ^18.0.0
       react-dom: ^18.0.0
@@ -4978,8 +4974,9 @@ packages:
     engines: {node: '>=14.17'}
     hasBin: true
 
-  ua-parser-js@1.0.38:
-    resolution: {integrity: sha512-Aq5ppTOfvrCMgAPneW1HfWj66Xi7XL+/mIy996R1/CLS/rcyJQm6QZdsKrUeivDFQ+Oc9Wyuwor8Ze8peEoUoQ==}
+  ua-parser-js@1.0.39:
+    resolution: {integrity: sha512-k24RCVWlEcjkdOxYmVJgeD/0a1TiSpqLg+ZalVGV9lsnr4yqu0w7tX/x2xX6G4zpkgQnRf89lxuZ1wsbjXM8lw==}
+    hasBin: true
 
   unbox-primitive@1.0.2:
     resolution: {integrity: sha512-61pPlCD9h51VoreyJ0BReideM3MDKMKnh6+V9L08331ipq6Q8OFXZYiqP6n/tbHx4s5I9uRhcye6BrbkizkBDw==}
@@ -6333,10 +6330,6 @@ snapshots:
       pirates: 4.0.6
       source-map-support: 0.5.21
 
-  '@babel/runtime@7.25.4':
-    dependencies:
-      regenerator-runtime: 0.14.1
-
   '@babel/runtime@7.25.7':
     dependencies:
       regenerator-runtime: 0.14.1
@@ -7334,7 +7327,7 @@ snapshots:
 
   '@react-native/normalize-colors@0.74.85': {}
 
-  '@react-native/normalize-colors@0.74.87': {}
+  '@react-native/normalize-colors@0.74.88': {}
 
   '@react-native/normalize-colors@0.75.4': {}
 
@@ -8807,7 +8800,7 @@ snapshots:
       object-assign: 4.1.1
       promise: 7.3.1
       setimmediate: 1.0.5
-      ua-parser-js: 1.0.38
+      ua-parser-js: 1.0.39
     transitivePeerDependencies:
       - encoding
 
@@ -10776,10 +10769,10 @@ snapshots:
       react-native: 0.75.4(@babel/core@7.25.8)(@babel/preset-env@7.25.4(@babel/core@7.25.8))(@types/react@18.3.11)(react@18.3.1)(typescript@5.6.3)
       warn-once: 0.1.1
 
-  react-native-web@0.19.12(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+  react-native-web@0.19.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
-      '@babel/runtime': 7.25.4
-      '@react-native/normalize-colors': 0.74.87
+      '@babel/runtime': 7.25.7
+      '@react-native/normalize-colors': 0.74.88
       fbjs: 3.0.5
       inline-style-prefixer: 6.0.4
       memoize-one: 6.0.0
@@ -11560,7 +11553,7 @@ snapshots:
 
   typescript@5.6.3: {}
 
-  ua-parser-js@1.0.38: {}
+  ua-parser-js@1.0.39: {}
 
   unbox-primitive@1.0.2:
     dependencies:
