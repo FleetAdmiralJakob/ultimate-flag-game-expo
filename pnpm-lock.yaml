@@ -70,7 +70,7 @@ importers:
         version: 0.75.4(@babel/core@7.25.9)(@babel/preset-env@7.25.4(@babel/core@7.25.9))(@types/react@18.3.11)(react@18.3.1)(typescript@5.6.3)
       react-native-gesture-handler:
         specifier: ~2.20.0
-        version: 2.20.0(react-native@0.75.4(@babel/core@7.25.9)(@babel/preset-env@7.25.4(@babel/core@7.25.9))(@types/react@18.3.11)(react@18.3.1)(typescript@5.6.3))(react@18.3.1)
+        version: 2.20.1(react-native@0.75.4(@babel/core@7.25.9)(@babel/preset-env@7.25.4(@babel/core@7.25.9))(@types/react@18.3.11)(react@18.3.1)(typescript@5.6.3))(react@18.3.1)
       react-native-mmkv:
         specifier: ^3.0.2
         version: 3.1.0(react-native@0.75.4(@babel/core@7.25.9)(@babel/preset-env@7.25.4(@babel/core@7.25.9))(@types/react@18.3.11)(react@18.3.1)(typescript@5.6.3))(react@18.3.1)
@@ -1655,8 +1655,8 @@ packages:
   '@types/graceful-fs@4.1.9':
     resolution: {integrity: sha512-olP3sd1qOEe5dXTSaFvQG+02VdRXcdytWLAZsAq1PecU8uqQAhkrnbli7DagjtXKW/Bl7YJbUsa8MPcuc8LHEQ==}
 
-  '@types/hammerjs@2.0.45':
-    resolution: {integrity: sha512-qkcUlZmX6c4J8q45taBKTL3p+LbITgyx7qhlPYOdOHZB7B31K0mXbP5YA7i7SgDeEGuI9MnumiKPEMrxg8j3KQ==}
+  '@types/hammerjs@2.0.46':
+    resolution: {integrity: sha512-ynRvcq6wvqexJ9brDMS4BnBLzmr0e14d6ZJTEShTBWKymQiHwlAyGu0ZPEFI2Fh1U53F7tN9ufClWM5KvqkKOw==}
 
   '@types/istanbul-lib-coverage@2.0.6':
     resolution: {integrity: sha512-2QF/t/auWm0lsy8XtKVPG19v3sSOQlJe/YHZgfjb/KBBHOGSV+J2q/S671rcq9uTBrLAXmZpqJiaQbMT+zNU1w==}
@@ -4477,8 +4477,8 @@ packages:
       react-native-svg:
         optional: true
 
-  react-native-gesture-handler@2.20.0:
-    resolution: {integrity: sha512-rFKqgHRfxQ7uSAivk8vxCiW4SB3G0U7jnv7kZD4Y90K5kp6YrU8Q3tWhxe3Rx55BIvSd3mBe9ZWbWVJ0FsSHPA==}
+  react-native-gesture-handler@2.20.1:
+    resolution: {integrity: sha512-Oqq5A606F6iV1eQ3FExEH6V4zE2uatNdrwQU1qMy7szHgm0SewQexeyLY3Zaaeo7luOknVq2xvZjNN/LvULGPw==}
     peerDependencies:
       react: '*'
       react-native: '*'
@@ -6808,7 +6808,7 @@ snapshots:
 
   '@egjs/hammerjs@2.0.17':
     dependencies:
-      '@types/hammerjs': 2.0.45
+      '@types/hammerjs': 2.0.46
 
   '@expo/bunyan@4.0.1':
     dependencies:
@@ -7954,7 +7954,7 @@ snapshots:
     dependencies:
       '@types/node': 22.5.1
 
-  '@types/hammerjs@2.0.45': {}
+  '@types/hammerjs@2.0.46': {}
 
   '@types/istanbul-lib-coverage@2.0.6': {}
 
@@ -11165,7 +11165,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  react-native-gesture-handler@2.20.0(react-native@0.75.4(@babel/core@7.25.9)(@babel/preset-env@7.25.4(@babel/core@7.25.9))(@types/react@18.3.11)(react@18.3.1)(typescript@5.6.3))(react@18.3.1):
+  react-native-gesture-handler@2.20.1(react-native@0.75.4(@babel/core@7.25.9)(@babel/preset-env@7.25.4(@babel/core@7.25.9))(@types/react@18.3.11)(react@18.3.1)(typescript@5.6.3))(react@18.3.1):
     dependencies:
       '@egjs/hammerjs': 2.0.17
       hoist-non-react-statics: 3.3.2
