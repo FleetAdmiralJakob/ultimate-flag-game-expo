@@ -73,7 +73,7 @@ importers:
         version: 2.20.0(react-native@0.75.4(@babel/core@7.25.8)(@babel/preset-env@7.25.4(@babel/core@7.25.8))(@types/react@18.3.11)(react@18.3.1)(typescript@5.6.3))(react@18.3.1)
       react-native-mmkv:
         specifier: ^3.0.2
-        version: 3.0.2(react-native@0.75.4(@babel/core@7.25.8)(@babel/preset-env@7.25.4(@babel/core@7.25.8))(@types/react@18.3.11)(react@18.3.1)(typescript@5.6.3))(react@18.3.1)
+        version: 3.1.0(react-native@0.75.4(@babel/core@7.25.8)(@babel/preset-env@7.25.4(@babel/core@7.25.8))(@types/react@18.3.11)(react@18.3.1)(typescript@5.6.3))(react@18.3.1)
       react-native-reanimated:
         specifier: ~3.16.0
         version: 3.16.1(@babel/core@7.25.8)(react-native@0.75.4(@babel/core@7.25.8)(@babel/preset-env@7.25.4(@babel/core@7.25.8))(@types/react@18.3.11)(react@18.3.1)(typescript@5.6.3))(react@18.3.1)
@@ -4283,8 +4283,8 @@ packages:
     peerDependencies:
       react: ^16.6.0 || ^17.0.0 || ^18.0.0
 
-  react-native-mmkv@3.0.2:
-    resolution: {integrity: sha512-zd+n5qLDy8Ptcj+ZIVa/pkGgL13X/8xFId3o4Ec9TpQVjM3BJaIszNc8jo6UF7dtndtVcvLDoBWBkkYmkpdTYA==}
+  react-native-mmkv@3.1.0:
+    resolution: {integrity: sha512-HDh89nYVSufHMweZ3TVNUHQp2lsEh1ApaoV08bUOU1nrlmGgC3I7tGUn1Uy40Hs7yRMPKx5NWKE5Dh86jTVrwg==}
     peerDependencies:
       react: '*'
       react-native: '*'
@@ -10733,7 +10733,7 @@ snapshots:
       react-fast-compare: 3.2.2
       shallowequal: 1.1.0
 
-  react-native-mmkv@3.0.2(react-native@0.75.4(@babel/core@7.25.8)(@babel/preset-env@7.25.4(@babel/core@7.25.8))(@types/react@18.3.11)(react@18.3.1)(typescript@5.6.3))(react@18.3.1):
+  react-native-mmkv@3.1.0(react-native@0.75.4(@babel/core@7.25.8)(@babel/preset-env@7.25.4(@babel/core@7.25.8))(@types/react@18.3.11)(react@18.3.1)(typescript@5.6.3))(react@18.3.1):
     dependencies:
       react: 18.3.1
       react-native: 0.75.4(@babel/core@7.25.8)(@babel/preset-env@7.25.4(@babel/core@7.25.8))(@types/react@18.3.11)(react@18.3.1)(typescript@5.6.3)
