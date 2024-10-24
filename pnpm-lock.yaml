@@ -70,7 +70,7 @@ importers:
         version: 0.76.0(@babel/core@7.25.9)(@babel/preset-env@7.25.4(@babel/core@7.25.9))(@react-native-community/cli-server-api@14.1.0)(@types/react@18.3.12)(react@18.3.1)
       react-native-gesture-handler:
         specifier: ~2.20.0
-        version: 2.20.1(react-native@0.76.0(@babel/core@7.25.9)(@babel/preset-env@7.25.4(@babel/core@7.25.9))(@react-native-community/cli-server-api@14.1.0)(@types/react@18.3.12)(react@18.3.1))(react@18.3.1)
+        version: 2.20.2(react-native@0.76.0(@babel/core@7.25.9)(@babel/preset-env@7.25.4(@babel/core@7.25.9))(@react-native-community/cli-server-api@14.1.0)(@types/react@18.3.12)(react@18.3.1))(react@18.3.1)
       react-native-mmkv:
         specifier: ^3.0.2
         version: 3.1.0(react-native@0.76.0(@babel/core@7.25.9)(@babel/preset-env@7.25.4(@babel/core@7.25.9))(@react-native-community/cli-server-api@14.1.0)(@types/react@18.3.12)(react@18.3.1))(react@18.3.1)
@@ -4311,8 +4311,8 @@ packages:
       react-native-svg:
         optional: true
 
-  react-native-gesture-handler@2.20.1:
-    resolution: {integrity: sha512-Oqq5A606F6iV1eQ3FExEH6V4zE2uatNdrwQU1qMy7szHgm0SewQexeyLY3Zaaeo7luOknVq2xvZjNN/LvULGPw==}
+  react-native-gesture-handler@2.20.2:
+    resolution: {integrity: sha512-HqzFpFczV4qCnwKlvSAvpzEXisL+Z9fsR08YV5LfJDkzuArMhBu2sOoSPUF/K62PCoAb+ObGlTC83TKHfUd0vg==}
     peerDependencies:
       react: '*'
       react-native: '*'
@@ -10738,7 +10738,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  react-native-gesture-handler@2.20.1(react-native@0.76.0(@babel/core@7.25.9)(@babel/preset-env@7.25.4(@babel/core@7.25.9))(@react-native-community/cli-server-api@14.1.0)(@types/react@18.3.12)(react@18.3.1))(react@18.3.1):
+  react-native-gesture-handler@2.20.2(react-native@0.76.0(@babel/core@7.25.9)(@babel/preset-env@7.25.4(@babel/core@7.25.9))(@react-native-community/cli-server-api@14.1.0)(@types/react@18.3.12)(react@18.3.1))(react@18.3.1):
     dependencies:
       '@egjs/hammerjs': 2.0.17
       hoist-non-react-statics: 3.3.2
