@@ -43,7 +43,7 @@ importers:
         version: 7.0.3(expo@52.0.22(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@expo/metro-runtime@4.0.0(react-native@0.76.5(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@19.0.3)(react@19.0.0)))(react-native@0.76.5(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@19.0.3)(react@19.0.0))(react@19.0.0))(react-native@0.76.5(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@19.0.3)(react@19.0.0))(react@19.0.0)
       expo-router:
         specifier: ~4.0.0
-        version: 4.0.15(bpn75ezkybk4at6mt4dv7uvqai)
+        version: 4.0.15(fnnlzpnfvzek6gkssw27dn5ixm)
       expo-splash-screen:
         specifier: ~0.29.0
         version: 0.29.18(expo@52.0.22(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@expo/metro-runtime@4.0.0(react-native@0.76.5(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@19.0.3)(react@19.0.0)))(react-native@0.76.5(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@19.0.3)(react@19.0.0))(react@19.0.0))
@@ -119,7 +119,7 @@ importers:
         version: 19.0.0(react@19.0.0)
       typescript:
         specifier: ~5.7.0
-        version: 5.7.2
+        version: 5.7.3
 
 packages:
 
@@ -1666,6 +1666,11 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
 
+  browserslist@4.24.4:
+    resolution: {integrity: sha512-KDi1Ny1gSePi1vm0q4oxSF8b4DR44GF4BbmS2YdhPLOEqd8pDviZOGH/GsmRwoWJ2+5Lr085X7naowMwKHDG1A==}
+    engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
+    hasBin: true
+
   bser@2.1.1:
     resolution: {integrity: sha512-gQxTNE/GAfIIrmHLUE3oJyp5FO6HRBfhjnw4/wMmA63ZGDJnWBmgY/lyQBpnDUkGmAhbSe39tx2d/iTOAfglwQ==}
 
@@ -1910,6 +1915,9 @@ packages:
   core-js-compat@3.39.0:
     resolution: {integrity: sha512-VgEUx3VwlExr5no0tXlBt+silBvhTryPwCXRI2Id1PN8WTKu7MreethvddqOubrYxkFdv/RnYrqlv1sFNAUelw==}
 
+  core-js-compat@3.40.0:
+    resolution: {integrity: sha512-0XEDpr5y5mijvw8Lbc6E5AkjrHfp7eEoPlu36SWeAbcL8fn1G1ANe8DBlo2XoNN89oVpxWwOjYIPVzR4ZvsKCQ==}
+
   core-util-is@1.0.3:
     resolution: {integrity: sha512-ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ==}
 
@@ -2111,6 +2119,9 @@ packages:
 
   electron-to-chromium@1.5.76:
     resolution: {integrity: sha512-CjVQyG7n7Sr+eBXE86HIulnL5N8xZY1sgmOPGuq/F0Rr0FJq63lg0kEtOIDfZBk44FnDLf6FUJ+dsJcuiUDdDQ==}
+
+  electron-to-chromium@1.5.79:
+    resolution: {integrity: sha512-nYOxJNxQ9Om4EC88BE4pPoNI8xwSFf8pU/BAeOl4Hh/b/i6V4biTAzwV7pXi3ARKeoYO5JZKMIXTryXSVer5RA==}
 
   emittery@0.13.1:
     resolution: {integrity: sha512-DeWwawk6r5yR9jFgnDKYt4sLS0LmHJJi3ZOnb5/JdbYwj3nW+FxQnHIjhBKz8YLC7oRNPVM9NQ47I3CVx34eqQ==}
@@ -4599,8 +4610,8 @@ packages:
     resolution: {integrity: sha512-Ne2YiiGN8bmrmJJEuTWTLJR32nh/JdL1+PSicowtNb0WFpn59GK8/lfD61bVtzguz7b3PBt74nxpv/Pw5po5Rg==}
     engines: {node: '>=8'}
 
-  typescript@5.7.2:
-    resolution: {integrity: sha512-i5t66RHxDvVN40HfDd1PsEThGNnlMCMT3jMUuoh9/0TaqWevNontacunWyN02LA9/fIbEWlcHZcgTKb9QoaLfg==}
+  typescript@5.7.3:
+    resolution: {integrity: sha512-84MVSjMEHP+FQRPy3pX9sTVV/INIex71s9TL2Gm5FG/WG1SqXeKyZ0k7/blY/4FdOzI12CBy1vGc4og/eus0fw==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -4665,6 +4676,12 @@ packages:
 
   update-browserslist-db@1.1.1:
     resolution: {integrity: sha512-R8UzCaa9Az+38REPiJ1tXlImTJXlVfgHZsglwBD/k6nj76ctsH1E3q4doGrukiLQd3sGQYu56r5+lo5r94l29A==}
+    hasBin: true
+    peerDependencies:
+      browserslist: '>= 4.21.0'
+
+  update-browserslist-db@1.1.2:
+    resolution: {integrity: sha512-PPypAm5qvlD7XMZC3BujecnaOxwhrtoFR+Dqkk5Aa/6DssiH0ibKoketaj9w8LP7Bont1rYeoV5plxD7RTEPRg==}
     hasBin: true
     peerDependencies:
       browserslist: '>= 4.21.0'
@@ -5743,7 +5760,7 @@ snapshots:
       babel-plugin-polyfill-corejs2: 0.4.12(@babel/core@7.26.0)
       babel-plugin-polyfill-corejs3: 0.10.6(@babel/core@7.26.0)
       babel-plugin-polyfill-regenerator: 0.6.3(@babel/core@7.26.0)
-      core-js-compat: 3.39.0
+      core-js-compat: 3.40.0
       semver: 6.3.1
     transitivePeerDependencies:
       - supports-color
@@ -6099,9 +6116,9 @@ snapshots:
 
   '@expo/sdk-runtime-versions@1.0.0': {}
 
-  '@expo/server@0.5.0(typescript@5.7.2)':
+  '@expo/server@0.5.0(typescript@5.7.3)':
     dependencies:
-      '@remix-run/node': 2.15.2(typescript@5.7.2)
+      '@remix-run/node': 2.15.2(typescript@5.7.3)
       abort-controller: 3.0.0
       debug: 4.4.0
       source-map-support: 0.5.21
@@ -6574,9 +6591,9 @@ snapshots:
     dependencies:
       nanoid: 3.3.8
 
-  '@remix-run/node@2.15.2(typescript@5.7.2)':
+  '@remix-run/node@2.15.2(typescript@5.7.3)':
     dependencies:
-      '@remix-run/server-runtime': 2.15.2(typescript@5.7.2)
+      '@remix-run/server-runtime': 2.15.2(typescript@5.7.3)
       '@remix-run/web-fetch': 4.4.2
       '@web3-storage/multipart-parser': 1.0.0
       cookie-signature: 1.2.2
@@ -6584,11 +6601,11 @@ snapshots:
       stream-slice: 0.1.2
       undici: 6.21.0
     optionalDependencies:
-      typescript: 5.7.2
+      typescript: 5.7.3
 
   '@remix-run/router@1.21.0': {}
 
-  '@remix-run/server-runtime@2.15.2(typescript@5.7.2)':
+  '@remix-run/server-runtime@2.15.2(typescript@5.7.3)':
     dependencies:
       '@remix-run/router': 1.21.0
       '@types/cookie': 0.6.0
@@ -6598,7 +6615,7 @@ snapshots:
       source-map: 0.7.4
       turbo-stream: 2.4.0
     optionalDependencies:
-      typescript: 5.7.2
+      typescript: 5.7.3
 
   '@remix-run/web-blob@3.1.0':
     dependencies:
@@ -7148,6 +7165,13 @@ snapshots:
       node-releases: 2.0.19
       update-browserslist-db: 1.1.1(browserslist@4.24.3)
 
+  browserslist@4.24.4:
+    dependencies:
+      caniuse-lite: 1.0.30001690
+      electron-to-chromium: 1.5.79
+      node-releases: 2.0.19
+      update-browserslist-db: 1.1.2(browserslist@4.24.4)
+
   bser@2.1.1:
     dependencies:
       node-int64: 0.4.0
@@ -7403,6 +7427,10 @@ snapshots:
     dependencies:
       browserslist: 4.24.3
 
+  core-js-compat@3.40.0:
+    dependencies:
+      browserslist: 4.24.4
+
   core-util-is@1.0.3: {}
 
   cosmiconfig@5.2.1:
@@ -7574,6 +7602,8 @@ snapshots:
   electron-to-chromium@1.5.71: {}
 
   electron-to-chromium@1.5.76: {}
+
+  electron-to-chromium@1.5.79: {}
 
   emittery@0.13.1: {}
 
@@ -7810,10 +7840,10 @@ snapshots:
     dependencies:
       invariant: 2.2.4
 
-  expo-router@4.0.15(bpn75ezkybk4at6mt4dv7uvqai):
+  expo-router@4.0.15(fnnlzpnfvzek6gkssw27dn5ixm):
     dependencies:
       '@expo/metro-runtime': 4.0.0(react-native@0.76.5(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@19.0.3)(react@19.0.0))
-      '@expo/server': 0.5.0(typescript@5.7.2)
+      '@expo/server': 0.5.0(typescript@5.7.3)
       '@radix-ui/react-slot': 1.0.1(react@19.0.0)
       '@react-navigation/bottom-tabs': 7.2.0(@react-navigation/native@7.0.14(react-native@0.76.5(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@19.0.3)(react@19.0.0))(react@19.0.0))(react-native-safe-area-context@5.1.0(react-native@0.76.5(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@19.0.3)(react@19.0.0))(react@19.0.0))(react-native-screens@4.4.0(react-native@0.76.5(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@19.0.3)(react@19.0.0))(react@19.0.0))(react-native@0.76.5(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@19.0.3)(react@19.0.0))(react@19.0.0)
       '@react-navigation/native': 7.0.14(react-native@0.76.5(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@19.0.3)(react@19.0.0))(react@19.0.0)
@@ -10406,7 +10436,7 @@ snapshots:
 
   type-fest@0.7.1: {}
 
-  typescript@5.7.2: {}
+  typescript@5.7.3: {}
 
   ua-parser-js@1.0.39: {}
 
@@ -10456,6 +10486,12 @@ snapshots:
   update-browserslist-db@1.1.1(browserslist@4.24.3):
     dependencies:
       browserslist: 4.24.3
+      escalade: 3.2.0
+      picocolors: 1.1.1
+
+  update-browserslist-db@1.1.2(browserslist@4.24.4):
+    dependencies:
+      browserslist: 4.24.4
       escalade: 3.2.0
       picocolors: 1.1.1
 
@@ -10547,7 +10583,7 @@ snapshots:
       '@webassemblyjs/wasm-edit': 1.14.1
       '@webassemblyjs/wasm-parser': 1.14.1
       acorn: 8.14.0
-      browserslist: 4.24.3
+      browserslist: 4.24.4
       chrome-trace-event: 1.0.4
       enhanced-resolve: 5.18.0
       es-module-lexer: 1.6.0
