@@ -44,7 +44,7 @@
     "react-native-gesture-handler": "~2.22.0",
     "react-native-mmkv": "^3.0.2",
     "react-native-reanimated": "~3.16.0",
-    "react-native-safe-area-context": "5.1.0",
+    "react-native-safe-area-context": "5.2.0",
     "react-native-screens": "4.6.0",
     "react-native-web": "~0.19.10",
     "tailwindcss": "^4.0.0"
