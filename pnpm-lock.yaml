@@ -70,7 +70,7 @@ importers:
         version: 0.77.0(@babel/core@7.26.8)(@babel/preset-env@7.26.0(@babel/core@7.26.8))(@types/react@19.0.8)(react@19.0.0)
       react-native-gesture-handler:
         specifier: ~2.23.0
-        version: 2.23.0(react-native@0.77.0(@babel/core@7.26.8)(@babel/preset-env@7.26.0(@babel/core@7.26.8))(@types/react@19.0.8)(react@19.0.0))(react@19.0.0)
+        version: 2.23.1(react-native@0.77.0(@babel/core@7.26.8)(@babel/preset-env@7.26.0(@babel/core@7.26.8))(@types/react@19.0.8)(react@19.0.0))(react@19.0.0)
       react-native-mmkv:
         specifier: ^3.0.2
         version: 3.2.0(react-native@0.77.0(@babel/core@7.26.8)(@babel/preset-env@7.26.0(@babel/core@7.26.8))(@types/react@19.0.8)(react@19.0.0))(react@19.0.0)
@@ -3951,8 +3951,8 @@ packages:
       react-native-svg:
         optional: true
 
-  react-native-gesture-handler@2.23.0:
-    resolution: {integrity: sha512-xtkdIU4S4uc4J2WO4hy7AXxD/1M8Be2yOrLdPTuWKAOF3KyL0D0xSdvuaWhI+GdZCNQQisj9kvbnMQGGb9XZNQ==}
+  react-native-gesture-handler@2.23.1:
+    resolution: {integrity: sha512-dr5CxIu+kXlxS3snSyt0qXtXGqfDvV26gtQVPNteFIfP0qWBuye/j48XPXePe2pH48QCuXpZM2VOooig7jzooA==}
     peerDependencies:
       react: '*'
       react-native: '*'
@@ -4521,8 +4521,8 @@ packages:
     engines: {node: '>=10'}
     hasBin: true
 
-  terser@5.38.1:
-    resolution: {integrity: sha512-GWANVlPM/ZfYzuPHjq0nxT+EbOEDDN3Jwhwdg1D8TU8oSkktp8w64Uq4auuGLxFSoNTRDncTq2hQHX1Ld9KHkA==}
+  terser@5.38.2:
+    resolution: {integrity: sha512-w8CXxxbFA5zfNsR/i8HZq5bvn18AK0O9jj7hyo1YqkovLxEFa0uP0LCVGZRqiRaKRFxXhELBp8SteeAjEnfeJg==}
     engines: {node: '>=10'}
     hasBin: true
 
@@ -9805,7 +9805,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  react-native-gesture-handler@2.23.0(react-native@0.77.0(@babel/core@7.26.8)(@babel/preset-env@7.26.0(@babel/core@7.26.8))(@types/react@19.0.8)(react@19.0.0))(react@19.0.0):
+  react-native-gesture-handler@2.23.1(react-native@0.77.0(@babel/core@7.26.8)(@babel/preset-env@7.26.0(@babel/core@7.26.8))(@types/react@19.0.8)(react@19.0.0))(react@19.0.0):
     dependencies:
       '@egjs/hammerjs': 2.0.17
       hoist-non-react-statics: 3.3.2
@@ -10426,7 +10426,7 @@ snapshots:
       jest-worker: 27.5.1
       schema-utils: 4.3.0
       serialize-javascript: 6.0.2
-      terser: 5.38.1
+      terser: 5.38.2
       webpack: 5.97.1
 
   terser@5.37.0:
@@ -10436,7 +10436,7 @@ snapshots:
       commander: 2.20.3
       source-map-support: 0.5.21
 
-  terser@5.38.1:
+  terser@5.38.2:
     dependencies:
       '@jridgewell/source-map': 0.3.6
       acorn: 8.14.0
