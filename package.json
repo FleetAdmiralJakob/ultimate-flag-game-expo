@@ -38,8 +38,8 @@
     "expo-system-ui": "~5.0.0",
     "expo-web-browser": "~14.2.0",
     "nativewind": "^4.1.10",
-    "react": "19.1.0",
-    "react-dom": "19.1.0",
+    "react": "19.1.1",
+    "react-dom": "19.1.1",
     "react-native": "0.80.2",
     "react-native-gesture-handler": "~2.27.0",
     "react-native-mmkv": "^3.0.2",
@@ -58,7 +58,7 @@
     "jest-expo": "~53.0.0",
     "prettier": "3.5.3",
     "prettier-plugin-tailwindcss": "^0.6.6",
-    "react-test-renderer": "19.1.0",
+    "react-test-renderer": "19.1.1",
     "typescript": "~5.8.0"
   },
   "private": true
